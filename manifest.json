@@ -1,26 +1,29 @@
 {
-    "manifest_version": 2,
-    "name": "BingChatTweaker",
-    "version": "1.0",
-    "description": "A Firefox extension to modify Bing Chat settings.",
-    "icons": {
-        "16": "icons/icon-16.png",
-        "32": "icons/icon-32.png",
-        "48": "icons/icon-48.png"
-    },
-    "content_scripts": [
+  "manifest_version": 2,
+  "name": "BingChatTweaker",
+  "version": "1.0",
+  "description": "A Firefox extension to optimize Bing Chat settings.",
+  "icons": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+  },
+  "content_scripts": [
       {
-        "matches": ["<all_urls>"],
-        "js": ["content_scripts/main.js"]
+        "matches": ["*://www.bing.com/*"],
+        "js": ["src/main.js"],
+        "run_at": "document_start"
       }
-    ],
-    "browser_action": {
-      "default_icon": {
-        "16": "icons/icon-16.png",
-        "32": "icons/icon-32.png",
-        "48": "icons/icon-48.png"
-      },
-      "default_popup": "popup/popup.html"
-    }
-  }
-  
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+    },
+    "default_popup": "popup/popup.html"
+  },
+  "web_accessible_resources": [
+      "inject.js"
+  ]
+}
