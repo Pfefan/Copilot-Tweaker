@@ -1,2 +1,2 @@
-# BingChatTweaker
-Tweaks Client side settings of bing chat
+# Copilot Tweaker
+Tweaks Client side settings of Microsoft Copilot
