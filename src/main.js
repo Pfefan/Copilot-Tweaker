@@ -2,7 +2,6 @@ window.addEventListener('load', async function() {
     const { sydConvConfig, sbcConfig } = await browser.storage.local.get(['sydConvConfig', 'sbcConfig']);
     console.log(sydConvConfig);
     if (!sydConvConfig || !sbcConfig) {
-        console.log('Settings not found in storage, loading default settings.');
         await browser.runtime.sendMessage({ action: 'fetchAndStoreDefaultSettings' });
     }
     try {

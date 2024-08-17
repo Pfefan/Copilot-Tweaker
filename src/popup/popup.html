@@ -4,22 +4,252 @@
     <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 <body>
-    <h2>Adjust Settings</h2>
+    <h2>Customize Settings</h2>
     <form id="settingsForm">
+        <!-- Checkbox section -->
         <div class="setting">
             <label for="enableMaxTurns">Enable Max Turns:</label>
             <input type="checkbox" id="enableMaxTurns" name="enableMaxTurns">
         </div>
+        <div class="setting">
+            <label for="enableWelcomeCopilotProButton">Welcome Copilot Pro Button:</label>
+            <input type="checkbox" id="enableWelcomeCopilotProButton" name="enableWelcomeCopilotProButton">
+        </div>
+        <div class="setting">
+            <label for="enableSendFeedback">Send Feedback:</label>
+            <input type="checkbox" id="enableSendFeedback" name="enableSendFeedback">
+        </div>
+        <div class="setting">
+            <label for="enableMessageExport">Message Export:</label>
+            <input type="checkbox" id="enableMessageExport" name="enableMessageExport">
+        </div>
+        <div class="setting">
+            <label for="enableFlatActionBar">Flat Action Bar:</label>
+            <input type="checkbox" id="enableFlatActionBar" name="enableFlatActionBar">
+        </div>
+        <div class="setting">
+            <label for="enableMessageExportWithPlainText">Message Export (Plain Text):</label>
+            <input type="checkbox" id="enableMessageExportWithPlainText" name="enableMessageExportWithPlainText">
+        </div>
+        <div class="setting">
+            <label for="enableGetChats">Get Chats:</label>
+            <input type="checkbox" id="enableGetChats" name="enableGetChats">
+        </div>
+        <div class="setting">
+            <label for="enableThreadSync">Thread Sync:</label>
+            <input type="checkbox" id="enableThreadSync" name="enableThreadSync">
+        </div>
+        <div class="setting">
+            <label for="disableTierLoadBalancingCall">Disable Tier Load Balancing:</label>
+            <input type="checkbox" id="disableTierLoadBalancingCall" name="disableTierLoadBalancingCall">
+        </div>
+        <div class="setting">
+            <label for="enableThreads">Enable Threads:</label>
+            <input type="checkbox" id="enableThreads" name="enableThreads">
+        </div>
+        <div class="setting">
+            <label for="enableVisualSearch">Visual Search:</label>
+            <input type="checkbox" id="enableVisualSearch" name="enableVisualSearch">
+        </div>
+        <div class="setting">
+            <label for="enableFileUploadDirect">Direct File Upload:</label>
+            <input type="checkbox" id="enableFileUploadDirect" name="enableFileUploadDirect">
+        </div>
+        <div class="setting">
+            <label for="disableWelcomeScreen">Disable Welcome Screen:</label>
+            <input type="checkbox" id="disableWelcomeScreen" name="disableWelcomeScreen">
+        </div>
+        <div class="setting">
+            <label for="enableWelcomeScreenV3">Welcome Screen V3:</label>
+            <input type="checkbox" id="enableWelcomeScreenV3" name="enableWelcomeScreenV3">
+        </div>
+        <div class="setting">
+            <label for="showToneSelector">Show Tone Selector:</label>
+            <input type="checkbox" id="showToneSelector" name="showToneSelector">
+        </div>
+        <div class="setting">
+            <label for="enableGPTCreator">GPT Creator:</label>
+            <input type="checkbox" id="enableGPTCreator" name="enableGPTCreator">
+        </div>
+        <div class="setting">
+            <label for="isMSAAuthenticated">MSA Authenticated:</label>
+            <input type="checkbox" id="isMSAAuthenticated" name="isMSAAuthenticated">
+        </div>
+        <div class="setting">
+            <label for="isBingUserSignedIn">Bing User Signed In:</label>
+            <input type="checkbox" id="isBingUserSignedIn" name="isBingUserSignedIn">
+        </div>
+        <div class="setting">
+            <label for="enablePerfTracker">Enable Performance Tracker</label>
+            <input type="checkbox" id="enablePerfTracker">
+        </div>
+        <div class="setting">
+            <label for="enableE2EPerf">Enable End-to-End Performance</label>
+            <input type="checkbox" id="enableE2EPerf">
+        </div>
+        <div class="setting">
+            <label for="enableWelcomeScreen">Enable Welcome Screen</label>
+            <input type="checkbox" id="enableWelcomeScreen">
+        </div>
+        <div class="setting">
+            <label for="enableStreamSyntheticTextResponses">Stream Synthetic Text:</label>
+            <input type="checkbox" id="enableStreamSyntheticTextResponses" name="enableStreamSyntheticTextResponses">
+        </div>
+        <div class="setting">
+            <label for="enableScreenshotIgnoreOnCibSerp">Ignore Screenshots on Cib Serp:</label>
+            <input type="checkbox" id="enableScreenshotIgnoreOnCibSerp" name="enableScreenshotIgnoreOnCibSerp">
+        </div>
+        <div class="setting">
+            <label for="enableStandaloneUtility">Standalone Utility:</label>
+            <input type="checkbox" id="enableStandaloneUtility" name="enableStandaloneUtility">
+        </div>
+        <div class="setting">
+            <label for="enableThreadShareLandingPage">Thread Share Landing Page:</label>
+            <input type="checkbox" id="enableThreadShareLandingPage" name="enableThreadShareLandingPage">
+        </div>
+        <div class="setting">
+            <label for="enableThreadContextMenu">Thread Context Menu:</label>
+            <input type="checkbox" id="enableThreadContextMenu" name="enableThreadContextMenu">
+        </div>
+        <div class="setting">
+            <label for="enableSydShare">Syd Share:</label>
+            <input type="checkbox" id="enableSydShare" name="enableSydShare">
+        </div>
+        <div class="setting">
+            <label for="enableSydCookLoc">Syd Cook Loc:</label>
+            <input type="checkbox" id="enableSydCookLoc" name="enableSydCookLoc">
+        </div>
+        <div class="setting">
+            <label for="convBackBtn">Conversation Back Button:</label>
+            <input type="checkbox" id="convBackBtn" name="convBackBtn">
+        </div>
+        <div class="setting">
+            <label for="enableToneDownProtectedMessage">Tone Down Protected Message:</label>
+            <input type="checkbox" id="enableToneDownProtectedMessage" name="enableToneDownProtectedMessage">
+        </div>
+        <div class="setting">
+            <label for="enableAIPersonasForDesktop">AI Personas for Desktop:</label>
+            <input type="checkbox" id="enableAIPersonasForDesktop" name="enableAIPersonasForDesktop">
+        </div>
+        <div class="setting">
+            <label for="enableFileUploadOfficeFilesSupport">Office Files Upload:</label>
+            <input type="checkbox" id="enableFileUploadOfficeFilesSupport" name="enableFileUploadOfficeFilesSupport">
+        </div>
+        <div class="setting">
+            <label for="enableFileUploadAudioSupport">Audio File Upload:</label>
+            <input type="checkbox" id="enableFileUploadAudioSupport" name="enableFileUploadAudioSupport">
+        </div>
+        <div class="setting">
+            <label for="enableNotebookMode">Notebook Mode:</label>
+            <input type="checkbox" id="enableNotebookMode" name="enableNotebookMode">
+        </div>
+        <div class="setting">
+            <label for="enableShiftEnterNotebook">Shift+Enter in Notebook:</label>
+            <input type="checkbox" id="enableShiftEnterNotebook" name="enableShiftEnterNotebook">
+        </div>
+        <div class="setting">
+            <label for="disableShareLinkShowntbk">Disable Share Link in Notebook:</label>
+            <input type="checkbox" id="disableShareLinkShowntbk" name="disableShareLinkShowntbk">
+        </div>
+        <div class="setting">
+            <label for="isNewBingChat">New Bing Chat:</label>
+            <input type="checkbox" id="isNewBingChat" name="isNewBingChat">
+        </div>
+        <div class="setting">
+            <label for="enableBingChatPath">Bing Chat Path:</label>
+            <input type="checkbox" id="enableBingChatPath" name="enableBingChatPath">
+        </div>
+        <div class="setting">
+            <label for="enableDynamicFormCode">Dynamic Form Code:</label>
+            <input type="checkbox" id="enableDynamicFormCode" name="enableDynamicFormCode">
+        </div>
+        <div class="setting">
+            <label for="enableFreeSydney">Free Sydney:</label>
+            <input type="checkbox" id="enableFreeSydney" name="enableFreeSydney">
+        </div>
+        <div class="setting">
+            <label for="enableGptCreatorDeprecationAlert">GPT Creator Deprecation Alert:</label>
+            <input type="checkbox" id="enableGptCreatorDeprecationAlert" name="enableGptCreatorDeprecationAlert">
+        </div>
+        <div class="setting">
+            <label for="enableAlwaysSendMsg">Always Send Message:</label>
+            <input type="checkbox" id="enableAlwaysSendMsg" name="enableAlwaysSendMsg">
+        </div>
+        <div class="setting">
+            <label for="initialShowConvPresent">Show Initial Conversation:</label>
+            <input type="checkbox" id="initialShowConvPresent" name="initialShowConvPresent">
+        </div>
+        <div class="setting">
+            <label for="enableSetConvQueryFlag">Set Conversation Query Flag:</label>
+            <input type="checkbox" id="enableSetConvQueryFlag" name="enableSetConvQueryFlag">
+        </div>
+        <div class="setting">
+            <label for="enableNoScrollDownOnInit">No Scroll Down on Init:</label>
+            <input type="checkbox" id="enableNoScrollDownOnInit" name="enableNoScrollDownOnInit">
+        </div>
 
+        <!-- Number section -->
         <div class="setting">
             <label for="maxTurns">Max Turns Per Conversation:</label>
             <input type="number" id="maxTurns" name="maxTurns">
         </div>
         <div class="setting">
-            <label for="maxTurnsMuid">Max Turns Per Conversation Muid User:</label>
+            <label for="maxTurnsMuid">Max Turns for MUID Users:</label>
             <input type="number" id="maxTurnsMuid" name="maxTurnsMuid">
         </div>
-
+        <div class="setting">
+            <label for="maxMessageLength">Max Message Length:</label>
+            <input type="number" id="maxMessageLength" name="maxMessageLength">
+        </div>
+        <div class="setting">
+            <label for="maxMessageLengthBalanced">Max Message Length (Balanced):</label>
+            <input type="number" id="maxMessageLengthBalanced" name="maxMessageLengthBalanced">
+        </div>
+        <div class="setting">
+            <label for="maxMessageLengthCreative">Max Message Length (Creative):</label>
+            <input type="number" id="maxMessageLengthCreative" name="maxMessageLengthCreative">
+        </div>
+        <div class="setting">
+            <label for="maxMessageLengthPrecise">Max Message Length (Precise):</label>
+            <input type="number" id="maxMessageLengthPrecise" name="maxMessageLengthPrecise">
+        </div>
+        <div class="setting">
+            <label for="maxMessageLengthBalancedPro">Max Message Length (Balanced Pro):</label>
+            <input type="number" id="maxMessageLengthBalancedPro" name="maxMessageLengthBalancedPro">
+        </div>
+        <div class="setting">
+            <label for="maxMessageLengthCreativePro">Max Message Length (Creative Pro):</label>
+            <input type="number" id="maxMessageLengthCreativePro" name="maxMessageLengthCreativePro">
+        </div>
+        <div class="setting">
+            <label for="maxMessageLengthPrecisePro">Max Message Length (Precise Pro):</label>
+            <input type="number" id="maxMessageLengthPrecisePro" name="maxMessageLengthPrecisePro">
+        </div>
+        <div class="setting">
+            <label for="syntheticStreamSpeed">Synthetic Stream Speed:</label>
+            <input type="number" id="syntheticStreamSpeed" name="syntheticStreamSpeed">
+        </div>
+        <div class="setting">
+            <label for="fileSizeLimitationPro">File Size Limit (Pro):</label>
+            <input type="number" id="fileSizeLimitationPro" name="fileSizeLimitationPro">
+        </div>
+        <div class="setting">
+            <label for="fileSizeLimitation">File Size Limit:</label>
+            <input type="number" id="fileSizeLimitation" name="fileSizeLimitation">
+        </div>
+        <div class="setting">
+            <label for="audioFileSizeLimitation">Audio File Size Limit:</label>
+            <input type="number" id="audioFileSizeLimitation" name="audioFileSizeLimitation">
+        </div>
+        <div class="setting">
+            <label for="fileMaxCountForChat">Max File Count for Chat:</label>
+            <input type="number" id="fileMaxCountForChat" name="fileMaxCountForChat">
+        </div>
+        <div class="setting">
+            <label for="multimediaSearchMaxImageCount">Max Image Count for Multimedia Search:</label>
+            <input type="number" id="multimediaSearchMaxImageCount" name="multimediaSearchMaxImageCount">
+        </div>
+         <!-- Select section -->
         <div class="setting">
             <label for="loadusertier">Load User Tier:</label>
             <select id="loadusertier" name="loadusertier">
@@ -28,8 +258,12 @@
                 <option value="Low">Low</option>
             </select>
         </div>
-        
-        <button id="savebtn">Save</button>
+        <div class="button-container">
+            <button id="savebtn">Save</button>
+            <button id="reloadbtn" style="display: none;">
+              <img src="../../icons/reload-icon.png" alt="Reload">
+            </button>
+          </div>
     </form>
     <script src="popup.js"></script>
 </body>

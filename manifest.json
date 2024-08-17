@@ -4,8 +4,7 @@
   "version": "1.0",
   "description": "A Firefox extension to change Microsoft Copilot client side settings.",
   "permissions": [
-    "storage",
-    "downloads"
+    "storage"
   ],
   "icons": {
     "16": "icons/icon16.png",
