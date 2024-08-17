@@ -1,26 +1,27 @@
-window.addEventListener('load', function() {
-    Promise.all([
-        fetch(browser.extension.getURL('src/configs/sydConvConfig.json')).then(response => response.json()),
-        fetch(browser.extension.getURL('src/configs/sbcConfig.json')).then(response => response.json())
-    ]).then(([sydConvSettings, sbcSettings]) => {
+window.addEventListener('load', async function() {
+    const { sydConvConfig, sbcConfig } = await browser.storage.local.get(['sydConvConfig', 'sbcConfig']);
+    console.log(sydConvConfig);
+    if (!sydConvConfig || !sbcConfig) {
+        console.log('Settings not found in storage, loading default settings.');
+        await browser.runtime.sendMessage({ action: 'fetchAndStoreDefaultSettings' });
+    }
+    try {
+        // Inject settings into the webpage
         var script = document.createElement('script');
         script.textContent = `
             if (window._w && window._w["_sydConvConfig"]) {
-                Object.assign(window._w["_sydConvConfig"], ${JSON.stringify(sydConvSettings)});
+                Object.assign(window._w["_sydConvConfig"], ${JSON.stringify(sydConvConfig)});
             } else {
-                window._w["_sydConvConfig"] = ${JSON.stringify(sydConvSettings)};
+                window._w["_sydConvConfig"] = ${JSON.stringify(sydConvConfig)};
             }
             if (window._w && window._w["SBC"]) {
-                Object.assign(window._w["SBC"], ${JSON.stringify(sbcSettings)});
+                Object.assign(window._w["SBC"], ${JSON.stringify(sbcConfig)});
             } else {
-                window._w["SBC"] = ${JSON.stringify(sbcSettings)};
-            }
-            if (window.CIB && CIB.config && CIB.config.features) {
-                CIB.config.features.enableMaxTurnsFromBackend = false;
-            } else {
-                console.error('Could not find CIB.config.features. Please check if the chat widget is loaded.');
+                window._w["SBC"] = ${JSON.stringify(sbcConfig)};
             }
         `;
         (document.head || document.documentElement).appendChild(script);
-    });
+    } catch (error) {
+        console.error('Error while injecting settings into webpage:', error);
+    }
 });

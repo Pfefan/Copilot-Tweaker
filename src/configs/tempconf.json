@@ -1,0 +1,145 @@
+{
+    "enableStreamSyntheticTextResponses": 1,
+    "enableWelcomeCopilotProButton": 1,
+    "maxTurnsPerConversation": 30,
+    "country": "Austria",
+    "timezoneoffset": "1",
+    "lat": "47,3528",
+    "long": "15,3076",
+    "language": "English (United Kingdom)",
+    "traceId": "66c0ccc4f57e4ea8b02d6b2c2d886ced",
+    "lang": "en",
+    "region": "AT",
+    "market": "de-AT",
+    "truemkt": "de-at",
+    "uilang": "en-GB",
+    "userIpAddress": "2001:871:207:8329:38f9:8ba4:3c04:232e",
+    "countryConfidence": 9,
+    "enableMessageExport": 1,
+    "enableFlatActionBar": 1,
+    "enableScreenshotIgnoreOnCibSerp": 1,
+    "enableStandaloneUtility": 1,
+    "enableThreadShareLandingPage": 1,
+    "enableShareThreadWithNoCache": 1,
+    "enableThreadContextMenu": 1,
+    "enableMessageExportWithPlainText": 1,
+    "enableGetChats": 1,
+    "enableThreadSync": 1,
+    "enableFlux3P": 1,
+    "disableTierLoadBalancingCall": 1,
+    "sydBalOpts": "dv3respond,gpt4obhelp,gpt4orsp,gpt4ov8",
+    "sydCrtOpts": "pluginvalbce2",
+    "sydIDs": "styleqnacon,zirandcf,inputdestf,0816nokcbce,0808fupvv2,808dcv2rc31s0,0619gpt4obr,725sdloads0,809paraprex",
+    "userMailId": "stefanpfeiffer04@gmail.com",
+    "username": "Stefan ",
+    "balTone": "galileo",
+    "freeSydneyCopilotIconUrl": "https://r.bing.com/rp/R8ErSC7kK_3o4eRM-pP2JlReVkE.png",
+    "freeSydneySydneyIconUrl": "https://r.bing.com/rp/ZIFQVh6WX4QKgPWuBMBKNrERh3A.png",
+    "freeSydneyDesignerIconUrl": "https://r.bing.com/rp/BIPV7LIgwA3NM0jE_uQbX76_Bqo.png",
+    "freeSydneyMicaIconUrl": "https://r.bing.com/rp/CSmi8SJJEVbyR5kV7sXcuMKWSqk.png",
+    "freeSydneyMicaAnimatedImgUrl": "https://r.bing.com/rp/INb98Qg3lxHUVICHhOOOwdWhG5M.png",
+    "freeSydneyShopperIconUrl": "https://r.bing.com/rp/JNNqthflAXgsvb05TOiwmoDeKpU.png",
+    "userAnID": "CF137E5493DCCAEB88D53C35FFFFFFFF",
+    "PLoadIID": "SERP.5090",
+    "emoteDriverJsUrl": "https://r.bing.com/rp/AkTanFjGt1ehujbCOHmDslwosbg.gz.js",
+    "emotePlayerJsUrl": "https://r.bing.com/rp/91m9WfbwGm8WClUPTeQm_EQmZHY.gz.js",
+    "isMSAAuthenticated": 1,
+    "enableThreads": 1,
+    "isBingUserSignedIn": 1,
+    "enableSydTestCache": false,
+    "enableSydTestHelper": false,
+    "enableSydShare": 1,
+    "enableSydCookLoc": 1,
+    "enableCdxFeats": 1,
+    "enableConvModeSwitchAjax": 1,
+    "enableSetToneFromUrl": 1,
+    "convBackBtn": 1,
+    "loadUserTier": "Low",
+    "enableToneDownProtectedMessage": 1,
+    "enableVisualSearch": 1,
+    "enableFileUploadDirect": 1,
+    "disableWelcomeScreen": 1,
+    "enableWelcomeScreenV3": 1,
+    "enableAIPersonasForDesktop": 1,
+    "enableFileUploadOfficeFilesSupport": 1,
+    "enableFileUploadAudioSupport": 1,
+    "enableOneDs": 1,
+    "enableNotebookMode": 1,
+    "enableShiftEnterNotebook": 1,
+    "disableShareLinkShowntbk": 1,
+    "isNewBingChat": 1,
+    "enableBingChatPath": 1,
+    "enableDynamicFormCode": 1,
+    "enableCIBBootstrapper": 1,
+    "isBootstrapperSupported": 1,
+    "enableFreeSydney": 1,
+    "enableGPTCreator": 1,
+    "enableGptCreatorDeprecationAlert": 1,
+    "enableAlwaysSendMsg": 1,
+    "enableGptHomeScreen": 1,
+    "enableGoldiLocksBackgroundLight": 1,
+    "enableDM": 1,
+    "fileSizeLimitationPro": 10485760,
+    "fileSizeLimitation": 1048576,
+    "audioFileSizeLimitation": 1048576,
+    "responseTone": "Balanced",
+    "vsbtnicon": "ImageAdd",
+    "vsbtniconfill": "ImageAddFill",
+    "freeSydneyOptionSets": [
+      {
+        "value": "fluxsydney"
+      }
+    ],
+    "neuripsOptionSets": [
+      {
+        "value": "nipsgpt"
+      }
+    ],
+    "codexOptionsSetsList": [
+      {
+        "value": "iyxapbing"
+      },
+      {
+        "value": "iycapbing"
+      }
+    ],
+    "azureAIDocumentAnalysisFileExtensions": [
+      {
+        "value": ".docx"
+      },
+      {
+        "value": ".xlsx"
+      },
+      {
+        "value": ".pptx"
+      },
+      {
+        "value": ".html"
+      },
+      {
+        "value": ".pdf"
+      }
+    ],
+    "audioFileExtensions": [
+      {
+        "value": ".wav"
+      }
+    ],
+    "enableUniversalInput": 1,
+    "maxTurnsPerConversationMuidUser": 10,
+    "enableSwiftKeyLatestUX1": 1,
+    "initialShowConvPresent": 1,
+    "enableStartConvFixInShareConversationMode": 1,
+    "enableFaviconChatCopilotIcon": 1,
+    "enableSetConvQueryFlag": 0,
+    "msgExtRedirectUriForAcquiringToken": "https://www.bing.com/search",
+    "enableStreamSyntheticTextResponsesForCreativeTone": 0,
+    "enableNoScrollDownOnInit": 1,
+    "enableChatPageCookieBannerFix": 1,
+    "extraEdgeOptions": "eredirecturl",
+    "enableHideGPTsInSidePanel": 1,
+    "disableHoverAdsClickout": 1,
+    "enableHostedContentPartnerSignal": 1,
+    "enableHostedContentToneSignal": 1,
+    "himgdirmsg": 1
+  }

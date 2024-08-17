@@ -2,23 +2,21 @@ body {
   font-family: Arial, sans-serif;
   padding: 10px;
 }
-
 form {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
-
+.setting {
+  margin-bottom: 10px;
+}
 button {
   margin-top: 10px;
 }
-
-form label {
+label {
   margin-right: 10px;
 }
-
-form input {
+input, select {
   margin-left: 10px;
-  max-width: 100px;
+  max-width: 200px;
   width: 100%;
 }
