@@ -1,0 +1,8 @@
+{
+    "showToneSelector": 1,
+    "features": {
+        "enablePerfTracker": 0,
+        "enableE2EPerf": 0,
+        "enableWelcomeScreen": 0
+    }
+}

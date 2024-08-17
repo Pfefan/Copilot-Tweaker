@@ -2,7 +2,10 @@
   "manifest_version": 2,
   "name": "Copilot Tweaks",
   "version": "1.0",
-  "description": "A Firefox extension to optimize Microsoft Copilot settings.",
+  "description": "A Firefox extension to change Microsoft Copilot client side settings.",
+  "permissions": [
+    "storage"
+  ],
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
@@ -10,6 +13,9 @@
     "64": "icons/icon64.png",
     "96": "icons/icon96.png",
     "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": ["src/background.js"]
   },
   "content_scripts": [
     {
@@ -22,11 +28,8 @@
     "default_icon": {
       "16": "icons/icon16.png",
       "32": "icons/icon32.png",
-      "48": "icons/icon48.png",
-      "64": "icons/icon64.png",
-      "96": "icons/icon96.png",
-      "128": "icons/icon128.png"
+      "64": "icons/icon64.png"
     },
-    "default_popup": "popup/popup.html"
+    "default_popup": "src/popup/popup.html"
   }
 }
